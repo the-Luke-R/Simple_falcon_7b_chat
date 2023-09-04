@@ -2,10 +2,10 @@ import os
 import requests
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+# Load .env file
 load_dotenv()
 
-# Retrieve the API key from the environment variable
+# Get API from .env file
 api_key = os.getenv("API_KEY")
 
 api_key = "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"
