@@ -8,7 +8,6 @@ load_dotenv()
 # Get API from .env file
 api_key = os.getenv("API_KEY")
 
-api_key = "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"
 endpoint = "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct"
 
 question = "how many continents are there?"
